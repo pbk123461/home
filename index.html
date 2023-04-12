@@ -58,6 +58,21 @@
   left: 0px;
   z-index: 0;
 }
+#pfp {
+  width: 200px;
+  height: 200px;
+  border: 12px solid #aaa;
+  /*To show the boundaries of the element*/
+}
+
+#pfp:before {
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+}
 				
 			</style>
 				<script>
@@ -81,7 +96,7 @@
 			<title>
 				pbk123461.github.io
 			</title>
-				<img src="download (1).jpeg">
+				<div id="pfp"> <img src="download (1).jpeg"></div>
 			<h1>Welcome To pbk123461.github.io</h1>
             </centre>
 			<space></space>
