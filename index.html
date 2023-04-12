@@ -46,8 +46,38 @@
 					height:50px;
 					border-radius: 12px;
 				}
-				body { background-image:url('src='https://gfycat.com/ifr/AdventurousNeatGrayreefshark' frameborder='0' scrolling='no' allowfullscreen width='1080' height='720''); background-repeat:repeat; }
+				html, body{
+  margin: 0px;
+  padding: 0px;
+  background: #000000;
+}
+.background{
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+				
 			</style>
+				<script>
+					window.onload = function(){
+  Particles.init({
+    selector: '.background',
+    maxParticles: 150,
+    connectParticles: 'true',
+    speed:2,
+    minDistance: 140,
+    sizeVariations: 4,
+    color: '#ffffff'
+  });
+}
+				</script>
+				<canvas class="background"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+  <script type="text/javascript" src="script.js">
+				</script>
 			<title>
 				pbk123461.github.io
 			</title>
