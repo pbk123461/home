@@ -2,4 +2,4 @@
 
 homepage for pbk123461.github.io/home 
 
-links: www.pbk123461.vercel.app and www.pbk123461-pbk123461.vercel.app and https://pbk123461-git-main-pbk123461.vercel.app/ and https://pbk123461.github.io/home/ and www.pbk123461.netlify.app and https://pbk123461.glitch.me/
+links: www.pbk123461.vercel.app and www.pbk123461-pbk123461.vercel.app and https://pbk123461-git-main-pbk123461.vercel.app/ and https://pbk123461.github.io/home/ and www.pbk123461.netlify.app
