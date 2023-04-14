@@ -3,10 +3,9 @@
     <head>
         <meta charset='utf8'>
     </head>
-    <body>
-        <centre>
-        <div id='ruffle'></div>
-        <script src='https://e9x.github.io/ruffle-example/ruffle.js'></script>
+    <body style="background-color:black;">
+        <div id='ruffle' style="text-align: center;"></div>
+        <script src='https://xxsibxx.github.io/ruffleembedsetup112/ruffle/ruffle.js'></script>
         <script>
 var swfobject = {};
 
@@ -17,12 +16,39 @@ swfobject.embedSWF = function(url, cont, width, height){
             height: height,
             style: 'width: ' + width + 'px; height: ' + height + 'px',
         });
+        window.RufflePlayer.config = {
+    // Options affecting the whole page
+    "publicPath": undefined,
+    "polyfills": true,
 
+    // Options affecting files only
+    "autoplay": "on",
+    "unmuteOverlay": "visible",
+    "backgroundColor": "#000000",
+    "letterbox": "fullscreen",
+    "warnOnUnsupportedContent": true,
+    "contextMenu": true,
+    "showSwfDownload": true,
+    "upgradeToHttps": window.location.protocol === "https:",
+    "maxExecutionDuration": {"secs": 15, "nanos": 0},
+    "logLevel": "error",
+    "base": null,
+    "menu": true,
+    "salign": "",
+    "scale": "showAll",
+    "quality": "high",
+};
+    
     player.load({ url: url });
 }
 
-swfobject.embedSWF('portal.swf', 'ruffle', 640, 480);
+swfobject.embedSWF('portal.swf', 'ruffle', 1080, 650);
+          fullscreenEnabled()
+          
         </script>
-        </centre>
+      <script>
+       
+      </script>
     </body>
 </html>
+    </div>
