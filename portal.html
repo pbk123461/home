@@ -1,9 +1,17 @@
+
 <!DOCTYPE HTML>
 <html>
     <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfCkNbX1VVgKV1eosk2CP4LGSeQ86pt7vHkl53ZO0ghVS2o_Ie4BOwCpv1CRtdwaf-wnY&usqp=CAU">
     <head>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+	  <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
         <meta charset='utf8'>
     </head>
+<asp:Content ID="Content1" ContentPlaceHolderID="page_content" runat="server">
+<div class="centered">
+
     <body style="background-color:black;">
         <div id='ruffle' style="text-align: center;"></div>
         <script src='https://xxsibxx.github.io/ruffleembedsetup112/ruffle/ruffle.js'></script>
@@ -44,12 +52,19 @@ swfobject.embedSWF = function(url, cont, width, height){
 }
 
 swfobject.embedSWF('portal.swf', 'ruffle', 1080, 650);
-          fullscreenEnabled()
+          
           
         </script>
-      <script>
-       
-      </script>
+</div>
+</asp:Content>
+<style>
+.centered {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+</style>     
+
     </body>
 </html>
     </div>
