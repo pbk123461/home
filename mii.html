@@ -25,7 +25,7 @@ swfobject.embedSWF = function(url, cont, width, height){
         player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
             width: width,
             height: height,
-            style: 'width: ' + width + '%; height: ' + height + '%',
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
         });
         window.RufflePlayer.config = {
     // Options affecting the whole page
@@ -47,13 +47,13 @@ swfobject.embedSWF = function(url, cont, width, height){
     "menu": true,
     "salign": "",
     "scale": "showAll",
-    "quality": "medium",
+    "quality": "low",
 };
     
     player.load({ url: url });
 }
 
-swfobject.embedSWF('mii.swf', 'ruffle', 100, 100);
+swfobject.embedSWF('mii.swf', 'ruffle', 1080, 620);
 		
           
           
